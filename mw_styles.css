@@ -1,5 +1,5 @@
 ﻿@charset "utf-8";
-
+/* Started off with the char set */
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -13,6 +13,7 @@
 
 */
 /* Structural Styles */
+/* I did all the structural stuff here so that the instructions would be met but in doing so it also helps me organize. I started with the html adding a background color for thee whole website. Then i n the body i added another background color and changed the font family. Inside the body footer i changed the background cooler and added padding to give it more visual apeal and spacing. IN the adress i chnaged the font size aligned the text to the center an added padding to the top and bottom. */
 html {
     background-color: rgb(173, 189, 227);
 }
@@ -36,12 +37,14 @@ address {
 }
 
 /* Heading Styles */
+/* The h1 and h2 were just changed to make the font look normal. */
 h1,
 h2 {
     font-weight: normal;
 }
 
 /* Navigation Styles */
+/* I took away the bullet points with the list-style-type rule and i changed the line height and font size. The nav was given a uniform look when it is just there and when it has already been looked at to keep it consistant and i chnaged the font size. The it was also edited to be more interactive so when it is hovered over it looks diffrent and so does the active look. */
 nav>ul {
     list-style-type: none;
     line-height: 2em;
@@ -60,6 +63,7 @@ nav a:hover {
 }
 
 /* Article Styles */
+/* In this ssection the main thing was font change and i edited the font variant and the line spacing */
 article#tour_summary h1 {
     font-size: 2.2em;
     letter-spacing: 0.2em;
@@ -75,7 +79,7 @@ article#tour_summary>p:first-of-type::first-line {
 }
 
 /* Aside Styles */
-
+/* All i changed was the font sizes and the colors of the text. */
 aside#tour_itinerary h1 {
     font-size: 1.2em;
 }
@@ -105,7 +109,7 @@ aside#tour_itinerary p:nth-last-of-type(odd) {
 }
 
 /* Blockquote Styles */
-
+/* I changed the background color the text color and added some padding */
 blockquote {
     background-color: rgb(173, 189, 227);
     color: rgba(255, 255, 255, 0.65)
